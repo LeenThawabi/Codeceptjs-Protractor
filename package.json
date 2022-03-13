@@ -1,0 +1,13 @@
+{
+    "dependencies": {
+        "@wdio/selenium-standalone-service": "^7.17.3",
+        "webdriverio": "^7.17.4"
+    },
+    "devDependencies": {
+        "codeceptjs": "^3.0.7",
+        "protractor": "^7.0.0"
+    },
+    "scripts": {
+        "codeceptjs": "npx codeceptjs run --steps"
+    }
+}
