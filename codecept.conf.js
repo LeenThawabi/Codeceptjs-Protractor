@@ -26,6 +26,10 @@ exports.config = {
     },
     screenshotOnFail: {
       enabled: true
+    },
+ wdio: {
+        enabled: true,
+        services: ['selenium-standalone']
     }
   }
 }

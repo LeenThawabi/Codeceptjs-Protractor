@@ -1,5 +1,5 @@
 Feature('test');
 
 Scenario('test something', ({ I }) => {
-I.amOnPage('/')
+I.amOnPage('/');
 });
